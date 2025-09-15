@@ -228,6 +228,9 @@ pip install boto3 argparse
 aws configure
 
 # Or configure a specific profile
+aws configure --profile <profile_name>
+
+# eg  
 aws configure --profile dev
 ```
 
